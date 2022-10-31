@@ -23,7 +23,8 @@
 
 @media (max-width: 768px) {
 
-  .header {text-align: center;
+  .header {
+    text-align: center;
   }
 
 }
@@ -49,14 +50,15 @@
   padding: 0px;
 }
 
-.tasks-item, .title {
+.tasks-item,
+.title {
   list-style: none;
 }
 
 #new-task,
 .task-input-checkbox,
 .task-input-text,
-.button{
+.button {
   outline: none;
 }
 
@@ -76,7 +78,8 @@
 
 /* Heading */
 
-.title, .add-new-task {
+.title,
+.add-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -86,7 +89,8 @@
   text-transform: uppercase;
 }
 
-.task-input-text, #new-task {
+.task-input-text,
+#new-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -120,7 +124,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
